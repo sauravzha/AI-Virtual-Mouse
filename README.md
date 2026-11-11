@@ -1,4 +1,5 @@
 # AI-Virtual-Mouse
+
 AI Hand Gesture Virtual Mouse 🖱️✨
 This project provides a futuristic way to interact with your computer by transforming your hand into a virtual mouse. Using just a standard webcam, this Python application tracks your hand movements and gestures in real-time, allowing you to perform standard mouse operations like moving the cursor, clicking, and scrolling without any physical hardware.
 
@@ -17,7 +18,7 @@ Scikit-learn: For the Random Forest classification model that recognizes gesture
 
 PyAutoGUI: For programmatically controlling the mouse and keyboard.
 
-🚀 Features & Gesture Controls
+🚀 Features \& Gesture Controls
 The application can recognize a variety of gestures, each mapped to a specific mouse function.
 
 Gesture
@@ -49,14 +50,13 @@ Follow these steps to get the project running on your local machine.
 
 1. Prerequisites
 Make sure you have Python 3.8 or newer installed on your system.
-
 2. Clone the Repository (or Download)
 If you have Git, you can clone the repository from your terminal:
 
-git clone [https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git](https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git)
+git clone [https://github.com/YOUR\_USERNAME/AI-Virtual-Mouse.git](https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git)
 cd AI-Virtual-Mouse
 
-(Replace YOUR_USERNAME with your actual GitHub username).
+(Replace YOUR\_USERNAME with your actual GitHub username).
 
 Alternatively, you can download the project as a ZIP file from GitHub and extract it.
 
@@ -66,7 +66,7 @@ Navigate to the project folder in your terminal and run the following command to
 pip install opencv-python mediapipe scikit-learn pyautogui
 
 4. Trained Model
-The trained model (model.p) is included in this repository. Ensure it is in the same directory as the virtual_mouse.py script.
+The trained model (model.p) is included in this repository. Ensure it is in the same directory as the virtual\_mouse.py script.
 
 🏃‍♀️ How to Run
 Make sure your webcam is connected and not being used by another application.
@@ -75,7 +75,7 @@ Open your terminal and navigate to the project directory.
 
 Run the main script:
 
-python virtual_mouse.py
+python virtual\_mouse.py
 
 A window showing your webcam feed will appear. Show your hand to the camera to start controlling the mouse.
 
@@ -104,3 +104,32 @@ This project is licensed under the MIT License. See the LICENSE file for details
 This project was trained on the HaGRID (HAnd Gesture Recognition Image Dataset).
 
 Special thanks to the developers of MediaPipe, OpenCV, and PyAutoGUI.
+
+\## Troubleshooting
+
+
+
+\### Webcam not detected
+
+\- Check that your webcam is connected.
+
+\- Close applications that may already be using the camera.
+
+\- Allow camera access when prompted by your operating system.
+
+
+
+\### Gesture recognition issues
+
+\- Ensure your hand is clearly visible.
+
+\- Use sufficient lighting.
+
+\- Keep your hand inside the camera frame.
+
+
+
+\### Exiting the application
+
+Press `q` in the application window to quit.
+
